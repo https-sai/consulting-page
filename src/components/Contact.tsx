@@ -2,7 +2,7 @@
 import { useState, useMemo } from "react";
 import { Phone, Mail, Linkedin, Calendar } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
-import { motion, LayoutGroup } from "framer-motion";
+import { LayoutGroup } from "framer-motion";
 
 const Contact = () => {
   const [isPhoneHovered, setIsPhoneHovered] = useState(false);

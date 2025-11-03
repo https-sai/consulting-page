@@ -86,7 +86,6 @@ export default function AnimatedNavbar() {
         return;
       }
 
-      const scrollPosition = window.scrollY + window.innerHeight / 3;
       let newActive = 0;
 
       // Check if we're at the very top (landing section with no ID)

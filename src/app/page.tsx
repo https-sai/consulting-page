@@ -91,7 +91,7 @@ export default function Home() {
                     <Badge variant={"available"}>Available</Badge>
                   </div>
                   <CardDescription>
-                    I'm a civil engineer with 20+ years of experience working
+                    I&apos;m a civil engineer with 20+ years of experience working
                     professionally on private, local, and state government
                     contracts.
                   </CardDescription>
