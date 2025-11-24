@@ -18,6 +18,7 @@ import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import { Experience } from "@/components/Experience";
 import { Gallery6 } from "@/components/ProjectGallery";
 import { Contact } from "@/components/Contact";
+import RotatingGear from "@/components/RotatingGear";
 
 export default function Home() {
   const [showParagraph, setShowParagraph] = useState(false);
@@ -64,11 +65,20 @@ export default function Home() {
               }}
               className="flex-1 flex items-center justify-center w-full md:w-auto"
             >
-              <div className="w-[300px] h-[300px] md:w-[500px] md:h-[500px]">
-                <DotLottieReact
-                  src="https://lottie.host/99233bed-6968-49b7-8a4f-c2df9100e7aa/8CauPBko38.lottie"
-                  loop
-                  autoplay
+              <div className="w-[300px] h-[300px] md:w-[500px] md:h-[500px] flex items-center justify-center relative">
+                <RotatingGear
+                  size={200}
+                  color="#000000"
+                  speed={3}
+                  className="w-[200px] h-[200px] md:w-[300px] md:h-[300px] relative z-10"
+                />
+                <RotatingGear
+                  size={200}
+                  color="#000000"
+                  speed={3}
+                  reverse={true}
+                  initialRotation={15}
+                  className="w-[200px] h-[200px] md:w-[300px] md:h-[300px] absolute -top-8 right-4 md:-top-12 md:right-8 z-0"
                 />
               </div>
             </motion.div>
