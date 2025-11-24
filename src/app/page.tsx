@@ -66,7 +66,7 @@ export default function Home() {
             >
               <div className="w-[300px] h-[300px] md:w-[500px] md:h-[500px]">
                 <DotLottieReact
-                  src="#" //"https://lottie.host/99233bed-6968-49b7-8a4f-c2df9100e7aa/8CauPBko38.lottie"
+                  src="https://lottie.host/99233bed-6968-49b7-8a4f-c2df9100e7aa/8CauPBko38.lottie"
                   loop
                   autoplay
                 />
@@ -91,9 +91,9 @@ export default function Home() {
                     <Badge variant={"available"}>Available</Badge>
                   </div>
                   <CardDescription>
-                    I&apos;m a civil engineer with 20+ years of experience working
-                    professionally on private, local, and state government
-                    contracts.
+                    I&apos;m a civil engineer with 20+ years of experience
+                    working professionally on private, local, and state
+                    government contracts.
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
